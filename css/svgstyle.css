@@ -1,0 +1,165 @@
+/* 
+svg{
+	position:absolute;
+	top: 10%;
+  	height: 60%;
+	width: 60%;
+  	left: 20%;
+	display:none;
+}
+
+#Phrase {
+ 	width: 45%;
+  	height: 45%;
+  	position: absolute;
+  	top: 20%;
+  	left: 25%;
+	margin: auto;
+	display: block;
+	fill: #fff;
+	stroke: #fff;
+	stroke-miterlimit: 5;
+}
+
+#Phrase2 {
+ 	width: 70%;
+  	height: 70%;
+  	position: absolute;
+  	top: 5%;
+  	left: 10%;
+	margin: auto;
+	display: block;
+	fill: #fff;
+	stroke: #fff;
+	stroke-miterlimit: 5;
+}
+
+
+.Animate-Draw {
+  fill-opacity: 0;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  animation-iteration: 1;
+  animation-name: DrawLine, FadeStroke, FillIn;
+  animation-duration: 4s, 1s, 1s;
+  animation-delay: 0, 3.5s, 3.5s;
+}
+
+
+#Draw-1 {
+  stroke-dashArray: 1100;
+  stroke-dashoffset: 1100;
+  animation-duration: 5s, 3s, 3s;
+}
+
+#Draw-2 {
+  animation-delay: 0s, 1s, 1s;
+  animation-duration: 5s, 1s, 1s;
+  stroke-dashArray: 1500;
+  stroke-dashoffset: 1500;
+}
+
+#Draw-3 {
+  animation-delay: 0s, 1s, 1s;
+  animation-duration: 3s, 1s, 1s;
+  stroke-dashArray: 300;
+  stroke-dashoffset: 300;
+}
+
+#Draw-4 {
+  animation-delay: 0s, 1s, 1s;
+  animation-duration: 4.5s, 1s, 1s;
+  stroke-dashArray: 300;
+  stroke-dashoffset: 300;
+}
+
+#Draw-5 {
+  animation-delay: 0s, 1s, 1s;
+  animation-duration: 4s, 1s, 1s;
+  stroke-dashArray: 300;
+  stroke-dashoffset: 300;
+}
+
+#Draw-6 {
+  animation-delay: 0s, 1s, 1s;
+  animation-duration: 4s, 1s, 1s;
+  stroke-dashArray: 300;
+  stroke-dashoffset: 300;
+}
+
+@keyframes DrawLine {
+  to {
+    stroke-dashOffset: 0;
+  }
+}
+
+@keyframes FadeStroke {
+  to {
+    stroke-opacity: 0;
+  }
+}
+
+@keyframes FillIn {
+  from {
+    fill-opacity: 0;
+  }
+  to {
+    fill-opacity: 1;
+  } */
+}
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {  /* min-width 641px, medium screens */
+/* #Phrase {
+	width: 80%;
+	height: 80%;
+	position: absolute;
+	top: 5%;
+	left: 8%;
+	margin: auto;
+	display: block;
+	fill: #fff;
+	stroke: #fff;
+	stroke-miterlimit: 5;
+}
+
+#Phrase2 {
+ 	width: 85%;
+  	height: 85%;
+  	position: absolute;
+  	top: 5%;
+  	left: 6%;
+	margin: auto;
+	display: block;
+	fill: #fff;
+	stroke: #fff;
+	stroke-miterlimit: 5;
+} */
+}
+
+@media only screen and (max-width: 40em) {
+/* #Phrase {
+ 	width: 90%;
+  	height: 90%;
+  	position: absolute;
+  	top: -10%;
+  	left: 2%;
+	margin: auto;
+	display: block;
+	fill: #fff;
+	stroke: #fff;
+	stroke-miterlimit: 5;
+}
+
+#Phrase2 {
+ 	width: 92%;
+  	height: 92%;
+  	position: absolute;
+  	top: -15%;
+  	left: 3%;
+	margin: auto;
+	display: block;
+	fill: #fff;
+	stroke: #fff;
+	stroke-miterlimit: 5;
+} */
+}

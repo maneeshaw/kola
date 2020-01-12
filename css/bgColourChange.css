@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/* CSS Document */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  transition: background-image 2s ease;
+  background-image: url(../images/background.jpg);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/** Slide Sections **/
+.slide {
+  padding-top: 20em;
+}
+
+.slide .inside {
+  display: table;
+  height: 100%;
+  width: 100%;
+  padding: 0 3em;
+}
+
+/**.slide .inside p {
+	display: table-cell;
+	width: 100%;
+	clear: both;
+	vertical-align: middle;
+	text-align: center;
+}**/
