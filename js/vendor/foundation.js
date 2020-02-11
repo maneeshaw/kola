@@ -493,15 +493,15 @@
       var _this = this;
 
       $(window).on('resize.zf.mediaquery', function () {
-        var newSize = _this._getCurrentSize(),
+        var Newsize = _this._getCurrentSize(),
             currentSize = _this.current;
 
-        if (newSize !== currentSize) {
+        if (Newsize !== currentSize) {
           // Change the current media query
-          _this.current = newSize;
+          _this.current = Newsize;
 
           // Broadcast the media query change on the window
-          $(window).trigger('changed.zf.mediaquery', [newSize, currentSize]);
+          $(window).trigger('changed.zf.mediaquery', [Newsize, currentSize]);
         }
       });
     }
@@ -5792,26 +5792,26 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     //         dirIn = isLTR ? 'Right' : 'Left',
     //         dirOut = isLTR ? 'Left' : 'Right',
     //         _this = this,
-    //         $newSlide;
+    //         $Newslide;
 
     //     if (!chosenSlide) {
     //       //most of the time, this will be auto played or clicked from the navButtons.
-    //       $newSlide = isLTR ? //if wrapping enabled, check to see if there is a `next` or `prev` sibling, if not, select the first or last slide to fill in. if wrapping not enabled, attempt to select `next` or `prev`, if there's nothing there, the function will kick out on next step. CRAZY NESTED TERNARIES!!!!!
+    //       $Newslide = isLTR ? //if wrapping enabled, check to see if there is a `next` or `prev` sibling, if not, select the first or last slide to fill in. if wrapping not enabled, attempt to select `next` or `prev`, if there's nothing there, the function will kick out on next step. CRAZY NESTED TERNARIES!!!!!
     //       this.options.infiniteWrap ? $curSlide.next('.' + this.options.slideClass).length ? $curSlide.next('.' + this.options.slideClass) : $firstSlide : $curSlide.next('.' + this.options.slideClass) : //pick next slide if moving left to right
     //       this.options.infiniteWrap ? $curSlide.prev('.' + this.options.slideClass).length ? $curSlide.prev('.' + this.options.slideClass) : $lastSlide : $curSlide.prev('.' + this.options.slideClass); //pick prev slide if moving right to left
     //     } else {
-    //         $newSlide = chosenSlide;
+    //         $Newslide = chosenSlide;
     //       }
 
-    //     if ($newSlide.length) {
+    //     if ($Newslide.length) {
     //       if (this.options.bullets) {
-    //         idx = idx || this.$slides.index($newSlide); //grab index to update bullets
+    //         idx = idx || this.$slides.index($Newslide); //grab index to update bullets
     //         this._updateBullets(idx);
     //       }
 
     //       if (this.options.useMUI) {
-    //         Foundation.Motion.animateIn($newSlide.addClass('is-active').css({ 'position': 'absolute', 'top': 0 }), this.options['animInFrom' + dirIn], function () {
-    //           $newSlide.css({ 'position': 'relative', 'display': 'block' }).attr('aria-live', 'polite');
+    //         Foundation.Motion.animateIn($Newslide.addClass('is-active').css({ 'position': 'absolute', 'top': 0 }), this.options['animInFrom' + dirIn], function () {
+    //           $Newslide.css({ 'position': 'relative', 'display': 'block' }).attr('aria-live', 'polite');
     //         });
 
     //         Foundation.Motion.animateOut($curSlide.removeClass('is-active'), this.options['animOutTo' + dirOut], function () {
@@ -5823,7 +5823,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     //         });
     //       } else {
     //           $curSlide.removeClass('is-active is-in').removeAttr('aria-live').hide();
-    //           $newSlide.addClass('is-active is-in').attr('aria-live', 'polite').show();
+    //           $Newslide.addClass('is-active is-in').attr('aria-live', 'polite').show();
     //           if (this.options.autoPlay && !this.timer.isPaused) {
     //             this.timer.restart();
     //           }
@@ -5832,7 +5832,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     //       * Triggers when the slide has finished animating in.
     //       * @event Orbit#slidechange
     //       */
-    //       this.$element.trigger('slidechange.zf.orbit', [$newSlide]);
+    //       this.$element.trigger('slidechange.zf.orbit', [$Newslide]);
     //     }
     //   }
 

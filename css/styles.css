@@ -17,7 +17,7 @@
   background: #e3f86b; /* Safari */
 }
 ::-moz-selection {
-  background: #e3f86b; /* Firefox */
+  titlebackground: #e3f86b; /* Firefox */
 }
 
 a:visted {
@@ -59,6 +59,32 @@ a:visted {
   width: 4.5em;
   height: auto;
   z-index: 9999999;
+}
+
+.slogan {
+  font-family: "Oak", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  text-align: left;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  word-spacing: 0px;
+}
+
+.slogan h1 {
+  background-image: url(https://im7.ezgif.com/tmp/ezgif-7-6748b2931d4c.gif);
+  background-size: cover;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  text-transform: uppercase;
+  font-size: 100px;
+  line-height: 150px;
+  letter-spacing: 0px;
+  margin: 10px 0;
 }
 
 /************ OVERLAY MENU ************/
@@ -128,6 +154,7 @@ a.burger {
   left: 0;
   background: rgba(205, 238, 74, 1);
   z-index: 9999;
+  display: none;
 }
 
 /* Overlay closing cross */
@@ -144,6 +171,7 @@ a.burger {
   color: transparent;
   outline: none;
   z-index: 999;
+  display: none;
 }
 
 /* Menu style */
@@ -424,7 +452,7 @@ footer {
   margin-bottom: 2em;
 }
 
-.HomeFooter {
+.NewsFooter {
   margin-top: 2em;
 }
 
@@ -477,7 +505,7 @@ ul.footerlinks li a ul.footerlinks li a:hover {
   font-weight: bold;
   font-size: 1.2em;
 }
-/*** HOME PG SHITE **/
+/*** News PG SHITE **/
 .center-vert {
   position: absolute;
   height: 100%;
@@ -620,7 +648,7 @@ button:focus {
   -webkit-backface-visibility: hidden;
 }
 
-.container {
+.container .shopcon {
   display: -webkit-flex;
   -webkit-flex-flow: row wrap;
   -webkit-justify-content: space-between;
@@ -646,18 +674,25 @@ button:focus {
 .da-thumbs li a img {
   display: block;
   position: relative;
-  width: 100%;
+}
+
+.da-thumbs li a img {
+  background-color: white;
+  display: block;
+  margin: 0 auto;
   height: 250px;
-  background-size: cover;
+  /* max-width: none; */
+  object-position: center center;
 }
 
 .da-thumbs li a {
   overflow: hidden;
+  height: 250px;
 }
 
 .da-thumbs li a div {
   position: absolute;
-  background: #f3e6ef;
+  background: #ebf0f6;
   width: 100%;
   height: 100%;
 }
@@ -863,12 +898,18 @@ ul.social li a:hover {
     height: 10%;
   }
 
-  /** HOME STUFF **/
+  /** News STUFF **/
   .JamSesh {
     margin-top: 3em;
   }
 
   .container .mix {
+    /* display: none; */
+    width: 33%;
+    margin-top: 0;
+    -webkit-backface-visibility: hidden;
+  }
+  .shopcontainer .mix {
     /* display: none; */
     width: 33%;
     margin-top: 0;
@@ -949,7 +990,7 @@ ul.social li a:hover {
     margin-bottom: 2em;
   }
 
-  .HomeFooter {
+  .NewsFooter {
     margin-top: 2em;
   }
 
@@ -964,6 +1005,10 @@ ul.social li a:hover {
     margin-left: auto;
     margin-right: auto;
     text-align-last: center;
+  }
+
+  .footerlinks {
+    font-size: 11px;
   }
 
   p a {
@@ -1023,7 +1068,7 @@ ul.social li a:hover {
     background: #000;
   }
 
-  /** HOME STUFF **/
+  /** News STUFF **/
   .IntroText {
     margin-top: 0em;
     margin-left: 7em;
@@ -1049,7 +1094,18 @@ ul.social li a:hover {
     margin-top: 1em;
   }
 
+  .menuops {
+    right: 25px;
+  }
+
   .container .mix {
+    /* display: none; */
+    width: 100%;
+    margin-top: 0;
+    -webkit-backface-visibility: hidden;
+  }
+
+  .shopcontainer .mix {
     /* display: none; */
     width: 100%;
     margin-top: 0;
@@ -1060,10 +1116,34 @@ ul.social li a:hover {
     width: 100%;
   }
 
+  .shopcontainer {
+    width: 100%;
+  }
+
   #Container {
     width: 100%;
   }
 
+  /* table */
+  table,
+  th,
+  td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  th,
+  td {
+    padding: 15px;
+    text-align: left;
+  }
+
+  .table > thead > tr > th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #ddd;
+    padding: 8px;
+    line-height: 1.42857143;
+  }
   /** PLAY PG **/
   .container2 .mix {
     width: 100%;
@@ -1119,7 +1199,7 @@ ul.social li a:hover {
     fill-opacity: 0;
   }
   to {
-    fill: #174755;
+    fill: #2e7574;
     fill-opacity: 1;
   }
 }

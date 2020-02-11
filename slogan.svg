@@ -1,0 +1,22 @@
+           <svg
+                    height="100"
+                    width="auto"
+                    stroke="#2E7574"
+                    stroke-width="2"
+                    class="text-line"
+                  >
+                    <text class="slogan" x="50" y="90" fill="none">
+                      WE ARE IN IT
+                    </text>
+                  </svg>
+                  <svg
+                    height="100"
+                    width="auto"
+                    stroke="#2E7574"
+                    stroke-width="2"
+                    class="text-line"
+                  >
+                    <text class="slogan" x="50" y="90" fill="none">
+                      FOR THE LONG RUN
+                    </text>
+                  </svg>
