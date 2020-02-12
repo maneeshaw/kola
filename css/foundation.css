@@ -90,7 +90,7 @@ code, kbd, pre, samp {
     font-family: monospace;
     font-size: 1em;
 }
-button, input, optgroup, select, textarea {
+/* button, input, optgroup, select, textarea {
     color: inherit;
     font: inherit;
     margin: 0;
@@ -111,6 +111,22 @@ button[disabled], html input[disabled] {
 button::-moz-focus-inner, input::-moz-focus-inner {
     border: 0;
     padding: 0;
+} */
+a.button {
+    display: inline-block;
+    text-align: center;
+    line-height: 1;
+    cursor: pointer;
+    -webkit-appearance: none;
+    transition: background-color .25s ease-out, color .25s ease-out;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    border-radius: 0;
+    padding: .85em 1em;
+    margin: 0 0 1rem;
+    font-size: .9rem;
+    background-color: #2e7574;
+    color: #fefefe;
 }
 input {
     line-height: normal;
@@ -193,6 +209,7 @@ button {
     border: 0;
     border-radius: 0;
     line-height: 1;
+    font-size: 16px;
 }
 [data-whatinput=mouse] button {
     outline: 0;
@@ -1285,7 +1302,8 @@ h2, h3, p {
 h2, h3 {
     page-break-after: avoid;
 }
-}.button {
+
+}a.button {
     display: inline-block;
     text-align: center;
     line-height: 1;
@@ -1297,15 +1315,16 @@ h2, h3 {
     border-radius: 0;
     padding: .85em 1em;
     margin: 0 0 1rem;
-    font-size: .9rem;
-    background-color: #2199e8;
+    /* font-size: .9rem; */
+    font-weight: bold;
+    background-color: #2E7574;
     color: #fefefe;
 }
 [data-whatinput=mouse] .button {
     outline: 0;
 }
 .button:focus, .button:hover {
-    background-color: #1583cc;
+    background-color: rgb(46, 117, 116,0.5);
     color: #fefefe;
 }
 .button.tiny {
@@ -1324,11 +1343,11 @@ h2, h3 {
     margin-right: 0;
 }
 .button.primary {
-    background-color: #2199e8;
+    background-color: #2E7574;
     color: #fefefe;
 }
 .button.primary:focus, .button.primary:hover {
-    background-color: #147cc0;
+    background-color: #2E7574;
     color: #fefefe;
 }
 .button.secondary {
