@@ -4,11 +4,13 @@
   font-family: Oak;
   font-weight: bold;
   src: url(../fonts/oak-bold.ttf);
+  font-display: swap;
 }
 @font-face {
   font-family: Oak;
   font-weight: light;
   src: url(../fonts/oak-light.ttf);
+  font-display: swap;
 }
     
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */html {
@@ -199,7 +201,7 @@ select {
     border-radius: 0;
 }
 #map_canvas embed, #map_canvas img, #map_canvas object, .map_canvas embed, .map_canvas img, .map_canvas object, .mqa-display embed, .mqa-display img, .mqa-display object {
-    max-width: none!important;
+    max-width: none;
 }
 button {
     -webkit-appearance: none;
@@ -215,10 +217,10 @@ button {
     outline: 0;
 }
 .is-visible {
-    display: block!important;
+    display: block;
 }
 .is-hidden {
-    display: none!important;
+    display: none;
 }
 .row {
     max-width: 75rem;
@@ -1240,35 +1242,35 @@ p+.stat {
     text-align: justify;
 }
 }.show-for-print {
-    display: none!important;
+    display: none;
 }
 @media print {
     * {
-    background: transparent!important;
-    color: #000!important;
-    box-shadow: none!important;
-    text-shadow: none!important;
+    background: transparent;
+    color: #000;
+    box-shadow: none;
+    text-shadow: none;
 }
 .show-for-print {
-    display: block!important;
+    display: block;
 }
 .hide-for-print {
-    display: none!important;
+    display: none;
 }
 table.show-for-print {
-    display: table!important;
+    display: table;
 }
 thead.show-for-print {
-    display: table-header-group!important;
+    display: table-header-group;
 }
 tbody.show-for-print {
-    display: table-row-group!important;
+    display: table-row-group;
 }
 tr.show-for-print {
-    display: table-row!important;
+    display: table-row;
 }
 td.show-for-print, th.show-for-print {
-    display: table-cell!important;
+    display: table-cell;
 }
 a, a:visited {
     text-decoration: underline;
@@ -1290,7 +1292,7 @@ img, tr {
     page-break-inside: avoid;
 }
 img {
-    max-width: 100%!important;
+    max-width: 100%;
 }
 @page {
     margin: .5cm;
@@ -2118,7 +2120,7 @@ select[multiple] {
     overflow: hidden;
 }
 .is-drilldown li {
-    display: block!important;
+    display: block;
 }
 .is-drilldown-submenu {
     position: absolute;
@@ -3325,7 +3327,7 @@ table.hover tr:nth-of-type(even):hover {
     position: absolute;
     z-index: 3;
     top: calc(100% + .6495rem);
-    max-width: 10rem!important;
+    max-width: 10rem;
     border-radius: 0;
 }
 .tooltip:before {
@@ -3421,92 +3423,92 @@ table.hover tr:nth-of-type(even):hover {
     float: right;
 }
 .hide {
-    display: none!important;
+    display: none;
 }
 .invisible {
     visibility: hidden;
 }
 @media screen and (max-width:39.9375em) {
     .hide-for-small-only {
-    display: none!important;
+    display: none;
 }
 }@media screen and (max-width:0em), screen and (min-width:40em) {
     .show-for-small-only {
-    display: none!important;
+    display: none;
 }
 }@media screen and (min-width:40em) {
     .hide-for-medium {
-    display: none!important;
+    display: none;
 }
 }@media screen and (max-width:39.9375em) {
     .show-for-medium {
-    display: none!important;
+    display: none;
 }
 }@media screen and (min-width:40em) and (max-width:63.9375em) {
     .hide-for-medium-only {
-    display: none!important;
+    display: none;
 }
 }@media screen and (max-width:39.9375em), screen and (min-width:64em) {
     .show-for-medium-only {
-    display: none!important;
+    display: none;
 }
 }@media screen and (min-width:64em) {
     .hide-for-large {
-    display: none!important;
+    display: none;
 }
 }@media screen and (max-width:63.9375em) {
     .show-for-large {
-    display: none!important;
+    display: none;
 }
 }@media screen and (min-width:64em) and (max-width:74.9375em) {
     .hide-for-large-only {
-    display: none!important;
+    display: none;
 }
 }@media screen and (max-width:63.9375em), screen and (min-width:75em) {
     .show-for-large-only {
-    display: none!important;
+    display: none;
 }
 }.show-for-sr, .show-on-focus {
-    position: absolute!important;
+    position: absolute;
     width: 1px;
     height: 1px;
     overflow: hidden;
     clip: rect(0, 0, 0, 0);
 }
 .show-on-focus:active, .show-on-focus:focus {
-    position: static!important;
+    position: static;
     height: auto;
     width: auto;
     overflow: visible;
     clip: auto;
 }
 .hide-for-portrait, .show-for-landscape {
-    display: block!important;
+    display: block;
 }
 @media screen and (orientation:landscape) {
     .hide-for-portrait, .show-for-landscape {
-    display: block!important;
+    display: block;
 }
 }@media screen and (orientation:portrait) {
     .hide-for-portrait, .show-for-landscape {
-    display: none!important;
+    display: none;
 }
 }.hide-for-landscape, .show-for-portrait {
-    display: none!important;
+    display: none;
 }
 @media screen and (orientation:landscape) {
     .hide-for-landscape, .show-for-portrait {
-    display: none!important;
+    display: none;
 }
 }@media screen and (orientation:portrait) {
     .hide-for-landscape, .show-for-portrait {
-    display: block!important;
+    display: block;
 }
 }.float-left {
-    float: left!important;
+    float: left;
 }
 .float-right {
-    float: right!important;
+    float: right;
 }
 .float-center {
     display: block;
@@ -3940,40 +3942,40 @@ table.hover tr:nth-of-type(even):hover {
     opacity: 0;
 }
 .slow {
-    transition-duration: .75s!important;
+    transition-duration: .75s;
 }
 .fast {
-    transition-duration: .25s!important;
+    transition-duration: .25s;
 }
 .linear {
-    transition-timing-function: linear!important;
+    transition-timing-function: linear;
 }
 .ease {
-    transition-timing-function: ease!important;
+    transition-timing-function: ease;
 }
 .ease-in {
-    transition-timing-function: ease-in!important;
+    transition-timing-function: ease-in;
 }
 .ease-out {
-    transition-timing-function: ease-out!important;
+    transition-timing-function: ease-out;
 }
 .ease-in-out {
-    transition-timing-function: ease-in-out!important;
+    transition-timing-function: ease-in-out;
 }
 .bounce-in {
-    transition-timing-function: cubic-bezier(.485, .155, .24, 1.245)!important;
+    transition-timing-function: cubic-bezier(.485, .155, .24, 1.245);
 }
 .bounce-out {
-    transition-timing-function: cubic-bezier(.485, .155, .515, .845)!important;
+    transition-timing-function: cubic-bezier(.485, .155, .515, .845);
 }
 .bounce-in-out {
-    transition-timing-function: cubic-bezier(.76, -.245, .24, 1.245)!important;
+    transition-timing-function: cubic-bezier(.76, -.245, .24, 1.245);
 }
 .short-delay {
-    transition-delay: .3s!important;
+    transition-delay: .3s;
 }
 .long-delay {
-    transition-delay: .7s!important;
+    transition-delay: .7s;
 }
 .shake {
     -webkit-animation-name: a;
@@ -4071,50 +4073,50 @@ to {
     animation-iteration-count: infinite;
 }
 .slow {
-    -webkit-animation-duration: .75s!important;
-    animation-duration: .75s!important;
+    -webkit-animation-duration: .75s;
+    animation-duration: .75s;
 }
 .fast {
-    -webkit-animation-duration: .25s!important;
-    animation-duration: .25s!important;
+    -webkit-animation-duration: .25s;
+    animation-duration: .25s;
 }
 .linear {
-    -webkit-animation-timing-function: linear!important;
-    animation-timing-function: linear!important;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
 }
 .ease {
-    -webkit-animation-timing-function: ease!important;
-    animation-timing-function: ease!important;
+    -webkit-animation-timing-function: ease;
+    animation-timing-function: ease;
 }
 .ease-in {
-    -webkit-animation-timing-function: ease-in!important;
-    animation-timing-function: ease-in!important;
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
 }
 .ease-out {
-    -webkit-animation-timing-function: ease-out!important;
-    animation-timing-function: ease-out!important;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
 }
 .ease-in-out {
-    -webkit-animation-timing-function: ease-in-out!important;
-    animation-timing-function: ease-in-out!important;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
 }
 .bounce-in {
-    -webkit-animation-timing-function: cubic-bezier(.485, .155, .24, 1.245)!important;
-    animation-timing-function: cubic-bezier(.485, .155, .24, 1.245)!important;
+    -webkit-animation-timing-function: cubic-bezier(.485, .155, .24, 1.245);
+    animation-timing-function: cubic-bezier(.485, .155, .24, 1.245);
 }
 .bounce-out {
-    -webkit-animation-timing-function: cubic-bezier(.485, .155, .515, .845)!important;
-    animation-timing-function: cubic-bezier(.485, .155, .515, .845)!important;
+    -webkit-animation-timing-function: cubic-bezier(.485, .155, .515, .845);
+    animation-timing-function: cubic-bezier(.485, .155, .515, .845);
 }
 .bounce-in-out {
-    -webkit-animation-timing-function: cubic-bezier(.76, -.245, .24, 1.245)!important;
-    animation-timing-function: cubic-bezier(.76, -.245, .24, 1.245)!important;
+    -webkit-animation-timing-function: cubic-bezier(.76, -.245, .24, 1.245);
+    animation-timing-function: cubic-bezier(.76, -.245, .24, 1.245);
 }
 .short-delay {
-    -webkit-animation-delay: .3s!important;
-    animation-delay: .3s!important;
+    -webkit-animation-delay: .3s;
+    animation-delay: .3s;
 }
 .long-delay {
-    -webkit-animation-delay: .7s!important;
-    animation-delay: .7s!important;
+    -webkit-animation-delay: .7s;
+    animation-delay: .7s;
 }
