@@ -4,11 +4,13 @@
   font-family: Oak;
   font-weight: bold;
   src: url(../fonts/oak-bold.ttf);
+  font-display: swap;
 }
 @font-face {
   font-family: Oak;
   font-weight: light;
   src: url(../fonts/oak-light.ttf);
+  font-display: swap;
 }
 
 /** GLOBAL **/
