@@ -683,7 +683,7 @@ button:focus {
   display: block;
   margin: 0 auto;
   height: 250px;
-  /* max-width: none; */
+  max-width: 500px;
   object-position: center center;
 }
 
