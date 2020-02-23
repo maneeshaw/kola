@@ -1617,7 +1617,7 @@ legend {
     margin: 0;
     margin-left: -.1875rem;
 }
-/* select {
+select {
     height: 2.4375rem;
     padding: .5rem;
     border: 1px solid #cacaca;
@@ -1646,7 +1646,7 @@ legend {
 }select: disabled {
     background-color: #e6e6e6;
     cursor: not-allowed;
-} */
+}
 select::-ms-expand {
     display: none;
 }
