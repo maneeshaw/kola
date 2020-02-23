@@ -211,6 +211,10 @@ button {
     width: 83.33333%;
   }
 }
+
+.large-10 img {
+  max-width: 100%;
+}
 blockquote,
 dd,
 div,
