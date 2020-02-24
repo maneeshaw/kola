@@ -11,10 +11,10 @@
   font-display: swap;
 }
 ::selection {
-  background: #e3f86b;
+  background: #39ff14;
 }
 ::-moz-selection {
-  titlebackground: #e3f86b;
+  titlebackground: #39ff14;
 }
 a:visted {
   color: #000;
@@ -105,7 +105,7 @@ a:visted {
 }
 p > a {
   position: relative;
-  color: #e3f86b;
+  color: #39ff14;
   text-decoration: none;
 }
 p > a:hover {

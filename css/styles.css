@@ -16,10 +16,10 @@
 /** GLOBAL **/
 
 ::selection {
-  background: #e3f86b; /* Safari */
+  background: #39ff14; /* Safari */
 }
 ::-moz-selection {
-  titlebackground: #e3f86b; /* Firefox */
+  titlebackground: #39ff14; /* Firefox */
 }
 
 a:visted {
@@ -767,7 +767,7 @@ button:focus {
 
 #Stalkers {
   margin-bottom: 0;
-  box-shadow: inset #e3f86b 0 0 0 1.2em;
+  box-shadow: inset #39ff14 0 0 0 1.2em;
 }
 
 #Stalkers h2 {
@@ -835,7 +835,7 @@ ul.social li a:hover img {
 }
 
 ul.social li a:hover {
-  color: #e3f86b;
+  color: #39ff14;
 }
 
 /** PROJECT DEETS PG SHITE **/
