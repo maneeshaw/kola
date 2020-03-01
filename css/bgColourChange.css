@@ -6,7 +6,7 @@
 
 body {
   transition: background-image 2s ease;
-  background-image: linear-gradient(rgba(255, 255, 255, 1), rgba(25, 96, 94, 0.902));  background-position: bottom;
+  background-image: linear-gradient(rgba(255, 255, 255, 1), rgba(25, 96, 94, 0.3));  background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -37,7 +37,7 @@ body {
 	text-align: center;
 }**/
 /************ SMALL SCREENS ************/
-@media only screen and (max-width: 40em) {
+@media only screen and (max-width: 1024px) {
   /* max-width 640px, mobile-only styles, use when QAing mobile issues */
   /** typography **/
   .slide {

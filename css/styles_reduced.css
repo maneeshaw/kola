@@ -11,10 +11,10 @@
   font-display: swap;
 }
 ::selection {
-  background: #39ff14;
+  background: rgb(57, 255, 20, 0.8);
 }
 ::-moz-selection {
-  titlebackground: #39ff14;
+  titlebackground: rgb(57, 255, 20);
 }
 a:visted {
   color: #000;
@@ -65,6 +65,26 @@ a:visted {
   letter-spacing: 0;
   margin: 10px 0;
 }
+#Container,
+.container {
+  /* width: 100%; */
+  position: relative;
+}
+.text-block {
+  position: absolute;
+  top: 160px;
+  /* right: 450px; */
+  background-color: rgba(1,1,1,0.7);
+  margin: 10px auto;
+}
+
+.text-block p {
+  color: #fff;
+  padding: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  margin:0;
+}
 .overlay {
   position: fixed;
   width: 100%;
@@ -105,7 +125,7 @@ a:visted {
 }
 p > a {
   position: relative;
-  color: #39ff14;
+  /* color: #39ff14; */
   text-decoration: none;
 }
 p > a:hover {
@@ -274,6 +294,7 @@ button:focus {
   margin: 0 auto;
   height: 250px;
   object-position: center center;
+  min-width: 414px;
 }
 .da-thumbs li a {
   overflow: hidden;
@@ -305,20 +326,22 @@ button:focus {
   margin-top: 16em;
   position: relative;
 }
-.Deets {
-  margin-top: 3em;
-  margin-bottom: 3em;
+ .Deets {
+padding-top: 2rem;
+max-width: 75rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 .bold {
   font-weight: 700;
   text-transform: uppercase;
 }
-@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+@media only screen and (min-width: 40.063em) and (max-width: 40em) {
   .HorLine2 {
     margin: 3.3em 0 0 2em;
   }
   .container .mix {
-    width: 33%;
+    width: 100%;
     margin-top: 0;
     -webkit-backface-visibility: hidden;
   }
@@ -330,9 +353,39 @@ button:focus {
   }
 }
 @media only screen and (max-width: 40em) {
+  #Logo{
+    left: 1em;
+  }
+  .slogan h1{
+    margin: 10px 10px;
+  }
+  .menuops{
+            /* left: 20px; */
+                display: grid;
+                top: 150px;
+  }
+  .menuops  a{
+    margin-right: 15px;
+  }
+
+  .menuops h2{
+        letter-spacing: 2px;
+  }
+.text-block{
+  top:75px;
+}
+  .row.expanded{
+    height: auto;
+  }
+  img {
+    max-width: 100%;
+  }
   p {
     font-size: 1em;
     line-height: 30px;
+  }
+  .sub{
+    font-size: 1em;
   }
   h2,
   h3 {
@@ -350,18 +403,31 @@ button:focus {
   .NewsFooter {
     margin-top: 2em;
   }
-  footer p.copyright {
-    text-align: center;
+    .container .mix {
+    width: 100%;
+    margin-top: 0;
+    -webkit-backface-visibility: hidden;
+  }
+  /* footer p.copyright {
+    /* text-align: center;
     margin-left: auto;
     margin-right: auto;
-    text-align-last: center;
-  }
+    text-align-last: center; */
+  } */
   .footerlinks {
     font-size: 11px;
   }
-  p a {
-    text-decoration: underline;
+
+  ul.footerlinks {
+    margin-left: 0;
   }
+  ul.footerlinks li {
+  display: list-item;
+  /* margin-left: 1em; */
+}
+  /* p a {
+     text-decoration: underline; 
+  } */
   p > a:before {
     content: "";
     position: absolute;
@@ -386,13 +452,14 @@ button:focus {
     right: 25px;
   }
   .container .mix {
-    width: 100%;
+    /* width: 100%; */
     margin-top: 0;
     -webkit-backface-visibility: hidden;
   }
   #Container,
   .container {
     width: 100%;
+    position: relative;
   }
   table,
   td,
