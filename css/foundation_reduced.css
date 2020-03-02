@@ -42,7 +42,7 @@ audio:not([controls]) {
 }
 a {
   background-color: transparent;
-  color: #479F78;
+  color: #008381;
   text-decoration: none;
   line-height: inherit;
   cursor: pointer;
@@ -306,7 +306,7 @@ ul {
     line-height: 35px;
     overflow-wrap: break-word;
 }
-.large-6 li::before {content: "-"; color:#479F78;
+.large-6 li::before {content: "-"; color:#008381;
   display: inline-block; width: 1em;
   margin-left: -1em}
 

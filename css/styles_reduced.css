@@ -167,7 +167,7 @@ p {
   font-size: 1.4em;
   text-align: left;
   letter-spacing: 2;
-  /* line-height: 2; */
+  line-height: 2;
 }
 p.copyright {
   color: #c4c4c4;
