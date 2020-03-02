@@ -120,7 +120,7 @@ a:visted {
   transition: color 1s;
 }
 .overlay ul li a:focus,
-.overlay ul li a:hover {
+.overlay ul li a:hover, .overlay ul li a:active {
   color: #000;
 }
 p > a {
@@ -167,7 +167,7 @@ p {
   font-size: 1.4em;
   text-align: left;
   letter-spacing: 2;
-  line-height: 2;
+  /* line-height: 2; */
 }
 p.copyright {
   color: #c4c4c4;
@@ -182,7 +182,7 @@ footer {
   margin-bottom: 2em;
 }
 .NewsFooter {
-  margin-top: 2em;
+  margin-top: 5em;
 }
 .footerlinks {
   margin-top: 2.5em;
