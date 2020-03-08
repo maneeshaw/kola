@@ -164,10 +164,25 @@ span.small {
 p {
   font-family: oak;
   color: #000;
-  font-size: 1.4em;
+  font-size: 1.2em;
   text-align: left;
-  letter-spacing: 2;
+  letter-spacing: 2px;
   line-height: 2;
+}
+p.filters {
+  margin: 2em 1em 0;
+  position: relative;
+  display: inline-block;
+  font-family: oak, sans-serif;
+  color: #000;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+li p.filters{
+  font-size: 1em;
+  text-transform: uppercase;
 }
 p.copyright {
   color: #c4c4c4;
@@ -294,7 +309,7 @@ button:focus {
   margin: 0 auto;
   height: 250px;
   object-position: center center;
-  min-width: 414px;
+  /* min-width: 100vw; */
 }
 .da-thumbs li a {
   overflow: hidden;
@@ -319,7 +334,7 @@ button:focus {
 .da-thumbs li a div span p {
   text-align: center;
   vertical-align: middle;
-  margin-top: 45%;
+  margin-top: 50%;
   transform: translateY(-65%);
 }
 .Playcontainer {
@@ -335,6 +350,12 @@ max-width: 75rem;
 .bold {
   font-weight: 700;
   text-transform: uppercase;
+}
+.uCalc_265928,.uCalc_265941,.uCalc_265952,.uCalc_265939,.uCalc_265944,.uCalc_265949{
+  font-family: oak,sans-serif;
+}
+.uCalc-frame_265941 p{
+    font-family: oak,sans-serif;
 }
 @media only screen and (min-width: 40.063em) and (max-width: 40em) {
   .HorLine2 {

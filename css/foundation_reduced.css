@@ -310,8 +310,8 @@ ul {
   display: inline-block; width: 1em;
   margin-left: -1em}
 
-ul {
-  list-style-type: disc;
+.container ul {
+  list-style-type: decimal ;
 }
 ol,
 ul {
