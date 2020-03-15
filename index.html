@@ -367,23 +367,24 @@
          const hour = new Date().getHours() * 60 * 60 * 1000
          const min = new Date().getMinutes() * 60 * 1000
          const sec = new Date().getSeconds() * 1000
+         const msPassed = hour + min + sec
          const msADay = 86400000
          const r = 70
          
          const tag1 = document.getElementById('counter-one')
          const dumped = 5000000
          const dumpedPerTick = (dumped / msADay) * r
-         let counter1 = (((hour + min + sec) * 1000) / r) * dumpedPerTick
+         let counter1 = (msPassed / r) * dumpedPerTick
          
          const tag2 = document.getElementById('counter-two')
          const oceanGarb = 30000
          const oceanGarbPerTick = (oceanGarb / msADay) * r
-         let counter2 = (((hour + min + sec) * 1000) / r) * oceanGarbPerTick
+         let counter2 = (msPassed / r) * oceanGarbPerTick
          
          const tag3 = document.getElementById('counter-three')
          const generated = 25000000
          const generatedPerTick = (generated / msADay) * r
-         let counter3 = (((hour + min + sec) * 1000) / r) * generatedPerTick
+         let counter3 = (msPassed / r) * generatedPerTick
          
          
          setInterval(() => {
