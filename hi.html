@@ -44,11 +44,60 @@
 <body>
   <div class="main-wrapper">
     <div class="menu">
+          <div class="menu">
       <div id="Logo" class="fadeIn uno hide-for-portrait">
         <a href="index.html">
           <h1>KOLA PROJECT</h1>
         </a>
       </div>
+       <div>
+      <nav id= "main-nav" class="main-nav">
+          <script>
+            const nav = document.getElementById('main-nav')
+            
+            nav.addEventListener('click', () => {
+              if(!window.navIsOpen) {
+                console.log('open nav')
+                nav.classList.add('is-visible')
+              } else {
+                console.log('close nav')
+                nav.classList.remove('is-visible')
+              }
+              window.navIsOpen = !window.navIsOpen
+            })
+         </script>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="https://shop.kolaproject.com" target="_blank">Shop</a></li>
+					<li><a href="calculators.html">Calculators</a></li>
+					<li><a href="blog.html">Blog</a></li>
+					<li><a href="hi.html">Hi</a></li>
+				</ul>
+      <!-- <div class="uno hide-for-portrait menuops">
+        <a href="index.html" style="
+    margin-right: 50px;">
+          <h2>PRINTSHOP</h2>
+        </a>
+        <a href="https://shop.kolaproject.com" target="_blank""
+            style=" margin-right: 50px; "
+          >
+            <h2>SHOP</h2>
+          </a>
+          <a href=" calculators.html" style=" margin-right: 50px; ">
+          <h2>CALCULATORS</h2>
+        </a>
+        <a href=" hi.html">
+          <h2>HI!</h2>
+        </a>
+      </div> -->
+      <div class="uno hide-for-portrait menuops">
+        <a href="#" style="
+    margin-right: 50px;">
+          <img src="images/menu.png" alt="menu" style="width: 25px;" class="icon icon--burger">
+        </a></div>
+        			</nav>
+              </div>
+    </div>
       <div class="uno hide-for-portrait menuops" style="
     display: block;
 ">
@@ -69,11 +118,11 @@
       <div id="Work" class="inside">
         <div class="row">
           <div class="large-2 columns"></div>
-          <div class="large-1 medium-1 hide-for-portrait columns wow fadeInLeft" data-wow-duration="1.6s"
+          <div class="large-1 medium-1 hide-for-portrait columns wow fadeInLeft" data-wow-duration="0.5s"
             data-wow-delay=".25s" style="padding-top: 200px;">
             <div class="HorLine2"></div>
           </div>
-          <div class="large-9 medium-10 hide-for-portrait columns wow fadeInLeft" data-wow-duration="1.6s"
+          <div class="large-9 medium-10 hide-for-portrait columns wow fadeInLeft" data-wow-duration="0.5s"
             data-wow-delay=".25s" style="padding-top: 200px;">
             <button class="filters">THANK YOU FOR COMING</button>
           </div>
