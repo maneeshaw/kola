@@ -157,12 +157,17 @@ font-weight: bold;
     position: absolute;
     top: -1px;
     left: -1px;
-    border: 1px solid rgb(86, 164, 197);
-    box-shadow: 0px 0px 30px rgba(86, 164, 197, 1);
+    /* border: 1px solid rgb(86, 164, 197); */
+    /* box-shadow: 0px 0px 30px rgba(86, 164, 197, 1); */
     border-radius: 50%;
     animation-duration: 2.5s;
     animation-name: bubble-bounce;
     animation-iteration-count: infinite;
+    background-image: url(https://res.cloudinary.com/kola-project/image/upload/v1584399424/3d-rendering-of-planet-earth-centered-leonello-calvetti-removebg-preview_ppyihy.png);
+    /* background-position: center; */
+    background-size: cover;
+    /* background-position: 50% 50%; */
+    image-rendering: -webkit-optimize-contrast;
 }
 
 .counter-outer-ring {
@@ -284,6 +289,64 @@ font-size: 20px;
   cursor: pointer;
   text-transform: uppercase;
 }
+#counter{
+    box-shadow: 0 10px 20px rgba(0,0,0,.08), 0 6px 6px rgba(0,0,0,.13);
+    border-radius: 4px;
+    background: #fff;
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-transition: .3s;
+    transition: all .3s;
+    margin: 25px;
+    padding: 30px 15px;
+        display: inline-flex;
+    align-items: center;
+}
+ .counter-icon {
+    background: #f7f7f7;
+    border: 1px solid #e6e6e6;
+    -webkit-box-flex: 0;
+    flex: 0 0 auto;
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    margin: 0 30px;
+    border-radius: 75px;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+.counter-icon img{
+    margin:39px;
+    height: 70px;
+    max-height: 70px;
+}
+span.counter-value{
+    color: #000;
+    font-weight: 700;
+    font-size: 2.2em;
+    line-height: 1.2;
+    margin: 0;
+    padding: 0;
+}
+p.counter-title{
+    color: gray;
+    font-size: 1.5em;
+    line-height: 1.4;
+    font-weight: 400;
+    margin: 0;
+    padding: 5px 0;
+    text-transform: uppercase;
+}
+p.counter-subtitle{
+    color: gray;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 0 0 15px;
+}
 @keyframes bubble-bounce {
     0% {
         transform: scale(1);
@@ -367,7 +430,7 @@ font-size: 20px;
     overflow: hidden;
     height: 100%;
     bottom: -1px;
-    background-image: linear-gradient(to bottom, #fff 20%, rgb(86, 164, 197) 80%);
+    /* background-image: linear-gradient(to bottom, #fff 20%, rgb(86, 164, 197) 80%); */
 }
 .bgTop {
     z-index: 15;
@@ -811,6 +874,17 @@ button:focus {
   margin: 4px 2px;
   cursor: pointer;
   text-transform: uppercase;
+}
+
+#counter{
+    display: grid;
+    text-align: center;
+}
+.counter-icon{
+    margin: auto;
+}
+p.counter-title,p.counter-subtitle {
+ text-align: center;
 }
     footer {
         margin-bottom: 2em;
