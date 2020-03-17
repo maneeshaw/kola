@@ -127,11 +127,11 @@ a:visted {
 }
 #mce-EMAIL{
     display: block;
-        width: 500px;
-
-        margin: 10px 0;
-        padding: 10px;
-        outline: none;
+    width: 500px;
+    margin: 10px 0;
+    padding: 10px;
+    outline: none;
+    border: 1px solid rgba(51, 51, 51,0.3);
         
 }
 
@@ -754,6 +754,55 @@ button:focus {
     font-family: oak, sans-serif;
 }
 
+/* Particles */
+ canvas{
+     display: block;
+     vertical-align: bottom;
+}
+/* ---- particles.js container ---- */
+ #particles-js{
+     /* position:absolute; */
+     width: 100%;
+     height: 100%;
+     background-color: #ffffff;
+     background-image: url("");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: 50% 50%;
+}
+/* ---- stats.js ---- */
+ /* .count-particles{
+     background: #076894;
+     position: absolute;
+     top: 48px;
+     left: 0;
+     width: 80px;
+     color: #076894;
+     font-size: .8em;
+     text-align: left;
+     text-indent: 4px;
+     line-height: 14px;
+     padding-bottom: 2px;
+     font-family: Helvetica, Arial, sans-serif;
+     font-weight: bold;
+} */
+ .js-count-particles{
+     font-size: 1.1em;
+}
+ #stats, .count-particles{
+     -webkit-user-select: none;
+     margin-top: 5px;
+     margin-left: 5px;
+}
+ #stats{
+     border-radius: 3px 3px 0 0;
+     overflow: hidden;
+}
+ .count-particles{
+     border-radius: 0 0 3px 3px;
+}
+
+
 @media only screen and (min-width: 40.063em) and (max-width: 40em) {
     .HorLine2 {
         margin: 3.3em 0 0 2em;
@@ -876,7 +925,16 @@ button:focus {
   cursor: pointer;
   text-transform: uppercase;
 }
-
+.scroll {
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	z-index: 2;
+	display: inline-block;
+	-webkit-transform: translate(0, -50%);
+	transform: translate(0, -50%);
+	text-decoration: none;
+}
 #counter{
     display: grid;
     text-align: center;
@@ -886,6 +944,23 @@ button:focus {
 }
 p.counter-title,p.counter-subtitle {
  text-align: center;
+}
+#mc_embed_signup{
+    margin: 0 auto;
+    width: 100%;
+}
+#mc_embed_signup_scroll{
+    width: 100%;
+}
+
+#mce-EMAIL{
+    display: block;
+    width: 198px;
+    margin: 10px 0;
+    padding: 10px;
+    outline: none;
+    border: 1px solid rgba(51, 51, 51,0.3);
+        
 }
     footer {
         margin-bottom: 2em;
