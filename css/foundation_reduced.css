@@ -47,6 +47,7 @@ a {
   line-height: inherit;
   cursor: pointer;
 }
+
 a:active,
 a:hover {
   outline: 0;
