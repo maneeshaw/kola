@@ -812,14 +812,14 @@ button:focus {
     font-family: oak, sans-serif;
 }
 
-/* Particles */
+/* Particles
  canvas{
      display: block;
      vertical-align: bottom;
 }
 /* ---- particles.js container ---- */
- #particles-js{
-     /* position:absolute; */
+ /* #particles-js{
+     position:absolute; 
      width: 100%;
      height: 100%;
      background-color: #ffffff;
@@ -827,7 +827,7 @@ button:focus {
      background-repeat: no-repeat;
      background-size: cover;
      background-position: 50% 50%;
-}
+} */
 /* ---- stats.js ---- */
  /* .count-particles{
      background: #076894;
@@ -843,7 +843,7 @@ button:focus {
      padding-bottom: 2px;
      font-family: Helvetica, Arial, sans-serif;
      font-weight: bold;
-} */
+} 
  .js-count-particles{
      font-size: 1.1em;
 }
@@ -858,7 +858,7 @@ button:focus {
 }
  .count-particles{
      border-radius: 0 0 3px 3px;
-}
+} */
 
 
 @media only screen and (min-width: 40.063em) and (max-width: 40em) {
