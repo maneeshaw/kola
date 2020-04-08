@@ -42,10 +42,11 @@ audio:not([controls]) {
 }
 a {
   background-color: transparent;
-  color:  rgb(86, 164, 197);
+  color:  #20b2aa;
   text-decoration: none;
   line-height: inherit;
   cursor: pointer;
+  font-weight: bold;
 }
 
 a:active,
@@ -389,12 +390,12 @@ a.button {
   -webkit-appearance: none;
   transition: background-color 0.25s ease-out, color 0.25s ease-out;
   vertical-align: middle;
-  border: 1px solid transparent;
-  border-radius: 0;
-  padding: 0.85em 1em;
+  /* border: 1px solid transparent; */
+  border-radius: 100px;
+  /* padding: 0.85em 1em; */
   margin: 0 0 1rem;
   font-weight: 700;
-  background-color:  rgb(86, 164, 197);
+  background-color:  #20b2aa;
   color: #fefefe;
 }
 [data-whatinput="mouse"] .button {
