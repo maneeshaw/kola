@@ -1,0 +1,35 @@
+<link rel="stylesheet" href="css/styles_reduced.css">
+<div style="display: flex;justify-content: center;">
+    <a class="button" href="#openmodal">SIGNUP TO TEST OUR ONLINE STORE</a>
+    <!-- START MODAL -->
+    <div id="openmodal" class="modal-window">
+        <div>
+            <a href="#" title="Close" class="modal-close">X</a>
+            <form id="gform" method="POST" action="https://script.google.com/macros/s/A-BIG-LONG-NUMBER/exec">
+                <div>
+                    name
+                    <input id="name" name="name">
+                </div>
+                <div>
+                    email
+                    <input id="email" name="email" type="email" required>
+                </div>
+                <button>Sign up!</button>
+            </form>
+            <div id="saving_message">
+                <p>
+                    Saving...
+                </p>
+            </div>
+            <div id="thankyou_message">
+                <p>
+                    Thank you!
+                </p>
+            </div>
+            <script type="text/javascript" src="form-handler.js"></script>
+        </div>
+    </div>
+    <!-- END MODAL -->
+</div>
+<div id="container"></div>
+<div id="container"></div>

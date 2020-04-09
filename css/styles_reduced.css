@@ -430,7 +430,7 @@ p.counter-subtitle{
     top: 0;
     left: 0;
     background: rgba(205, 238, 74, 1);
-    /* z-index: 9999; */
+    z-index: 9999;
     display: none;
 } */
 
@@ -473,7 +473,6 @@ p.counter-subtitle{
 	 right: 0;
 	 bottom: 0;
 	 left: 0;
-	 z-index: 999;
 	 visibility: hidden;
 	 opacity: 0;
 	 pointer-events: none;
@@ -483,6 +482,7 @@ p.counter-subtitle{
 	 visibility: visible;
 	 opacity: 1;
 	 pointer-events: auto;
+     z-index: 999;
 }
  .modal-window > div {
 	 width: 400px;
