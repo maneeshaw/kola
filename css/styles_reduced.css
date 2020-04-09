@@ -478,7 +478,7 @@ p.counter-subtitle{
 	 pointer-events: none;
 	 transition: all 1s;
 }
- .modal-window:target {
+ .modal-window.opened {
 	 visibility: visible;
 	 opacity: 1;
 	 pointer-events: auto;

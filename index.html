@@ -61,14 +61,20 @@
             <div id="Container" class="container">
               <div class="text-block">
                 <h1>WE ARE IN IT FOR THE LONG RUN</h1>
-                <p>Everybody deserves to live a sustainable lifestyle. We want to make it accessible, economical, and
-                  adaptable for everybody.</p>
+                <p>
+                  Everybody deserves to live a sustainable lifestyle. We want to make it accessible, economical, and
+                  adaptable for everybody.
+                </p>
                 <div style="display: flex;justify-content: center;">
-                  <a class="button" href="#openmodal" target="_top">SIGNUP TO TEST OUR ONLINE STORE</a>
+                  <a class="button" onclick="document.getElementById('openmodal').classList.add('opened')">
+                    SIGNUP TO TEST OUR ONLINE STORE
+                  </a>
                   <!-- START MODAL -->
                   <div id="openmodal" class="modal-window">
                     <div>
-                      <a href="#" title="Close" class="modal-close">X</a>
+                      <a title="Close" class="modal-close" onclick="document.getElementById('openmodal').classList.remove('opened')">
+                        X
+                      </a>
                       <form id="gform" method="POST" action="https://script.google.com/macros/s/A-BIG-LONG-NUMBER/exec">
                         <div>
                           name
