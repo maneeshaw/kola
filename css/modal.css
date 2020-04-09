@@ -1,6 +1,6 @@
 .modal-window {
 	 position: fixed;
-	 background-color: #20b2aa;
+	background-image: radial-gradient(#fff, 90%, transparent);
 	 top: 0;
 	 right: 0;
 	 bottom: 0;
@@ -23,7 +23,6 @@
 	 left: 50%;
 	 transform: translate(-50%, -50%);
 	 padding: 2em;
-	 background: #fff;
 }
  .modal-close {
 	 color: #aaa;
