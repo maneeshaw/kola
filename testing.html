@@ -5,28 +5,19 @@
     <div id="openmodal" class="modal-window">
         <div>
             <a href="#" title="Close" class="modal-close">X</a>
-            <form id="gform" method="POST" action="https://script.google.com/macros/s/A-BIG-LONG-NUMBER/exec">
-                <div>
-                    name
-                    <input id="name" name="name">
-                </div>
-                <div>
-                    email
-                    <input id="email" name="email" type="email" required>
-                </div>
+            <form id="gform" method="POST"
+                action="https://script.google.com/macros/s/AKfycbysZA2cxkrG7j7bxMIeVX7wscdW07ko0LL0bm8ZIrUeoP3ptAc/exec">
+                <div>name <input id="name" name="name" /></div>
+                <div>email <input id="email" name="email" type="email" required></div>
                 <button>Sign up!</button>
             </form>
             <div id="saving_message">
-                <p>
-                    Saving...
-                </p>
+                <p>Saving...<p>
             </div>
             <div id="thankyou_message">
-                <p>
-                    Thank you!
-                </p>
+                <p>Thank you!<p>
             </div>
-            <script type="text/javascript" src="form-handler.js"></script>
+            <script type="text/javascript" src="js/form-handler.js"></script>
         </div>
     </div>
     <!-- END MODAL -->
