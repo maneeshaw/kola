@@ -167,8 +167,8 @@ font-weight: bold;
     position: absolute;
     top: -1px;
     left: -1px;
-    /* border: 1px solid rgb(86, 164, 197); */
-    /* box-shadow: 0px 0px 30px rgba(86, 164, 197, 1); */
+    /* border: 1px solid #32818D; */
+    /* box-shadow: 0px 0px 30px rgba(50, 129, 141, 1); */
     border-radius: 50%;
     animation-duration: 2.5s;
     animation-name: bubble-bounce;
@@ -226,8 +226,8 @@ font-weight: bold;
     position: absolute;
     top: -1px;
     left: -1px;
-    border: 1px solid rgb(86, 164, 197);
-    box-shadow: 0px 0px 40px rgba(86, 164, 197, 1);
+    border: 1px solid rgb(50, 129, 141);
+    box-shadow: 0px 0px 40px rgba(50, 129, 141, 1);
     border-radius: 50%;
     animation-duration: 2.5s;
     animation-name: bubble-bounce;
@@ -533,7 +533,7 @@ p.counter-subtitle{
     overflow: hidden;
     height: 100%;
     bottom: -1px;
-    /* background-image: linear-gradient(to bottom, #fff 20%, rgb(86, 164, 197) 80%); */
+    /* background-image: linear-gradient(to bottom, #fff 20%, #32818D 80%); */
 }
 .bgTop {
     z-index: 15;
@@ -1016,7 +1016,7 @@ button:focus {
     letter-spacing: inherit;
 }
 .button {
-  background-color: rgb(86, 164, 197);
+  background-color: #32818D;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -1173,7 +1173,7 @@ th {
         fill-opacity: 0;
     }
     to {
-        fill:  rgb(86, 164, 197);
+        fill:  #32818D;
         fill-opacity: 1;
     }
 }

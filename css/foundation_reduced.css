@@ -314,7 +314,7 @@ ul {
     line-height: 35px;
     overflow-wrap: break-word;
 }
-.large-6 li::before {content: "-"; color: rgb(86, 164, 197);
+.large-6 li::before {content: "-"; color: #32818D;
   display: inline-block; width: 1em;
   margin-left: -1em}
 
@@ -395,7 +395,7 @@ a.button {
   /* padding: 0.85em 1em; */
   margin: 0 0 1rem;
   font-weight: 700;
-  background-color:  #32818D;
+  background-color:  #32818d;
   color: #fefefe;
 }
 [data-whatinput="mouse"] .button {
@@ -403,8 +403,8 @@ a.button {
 }
 .button:focus,
 .button:hover {
-  background-color: rgb(86, 164, 197, 0.5);
-  color: #fefefe;
+  background-color: #ebf0f6;
+  color: #000000;
 }
 .button.small {
   font-size: 0.75rem;
