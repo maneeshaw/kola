@@ -287,7 +287,7 @@ font-size: 20px;
     font-weight: bold;
 }
 .button {
-  background-color: #20b2aa;
+  background-color: #32818D;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -311,10 +311,10 @@ font-size: 20px;
     -webkit-transition: .3s;
     transition: all .3s;
     margin: 25px;
-    padding: 30px 15px;
+    padding: 30px 25px;
         display: inline-flex;
     align-items: center;
-        background-color: #20b2aa;
+        background-color: #32818D;
 }
  .counter-icon {
     background: #f7f7f7;
@@ -337,7 +337,7 @@ font-size: 20px;
     max-height: 70px;
 }
 span.counter-value{
-    color: #000;
+    color: #fff;
     font-weight: 700;
     font-size: 2.2em;
     line-height: 1.2;
@@ -345,7 +345,7 @@ span.counter-value{
     padding: 0;
 }
 p.counter-title{
-    color: #000;
+    color: #fff;
     font-size: 1.5em;
     line-height: 1.4;
     font-weight: 400;
@@ -354,7 +354,7 @@ p.counter-title{
     text-transform: uppercase;
 }
 p.counter-subtitle{
-    color: #000;
+    color: #fff;
     font-size: 1em;
     text-transform: uppercase;
     font-weight: 700;

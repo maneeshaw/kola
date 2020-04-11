@@ -42,7 +42,7 @@ audio:not([controls]) {
 }
 a {
   background-color: transparent;
-  color:  #20b2aa;
+  color:  #32818D;
   text-decoration: none;
   line-height: inherit;
   cursor: pointer;
@@ -395,7 +395,7 @@ a.button {
   /* padding: 0.85em 1em; */
   margin: 0 0 1rem;
   font-weight: 700;
-  background-color:  #20b2aa;
+  background-color:  #32818D;
   color: #fefefe;
 }
 [data-whatinput="mouse"] .button {
