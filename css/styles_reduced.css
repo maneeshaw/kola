@@ -1159,6 +1159,7 @@ th {
 
 .Playcontainer {
     margin-top: 12em;
+    margin-bottom: 10em;
 }
 
 @keyframes dash {
