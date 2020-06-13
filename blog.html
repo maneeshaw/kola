@@ -528,9 +528,8 @@
     wow = new WOW({
         animateClass: " animated ",
         offset: 100,
-        callback: function (box) {
-            console.log(" WOW: animating < " + box.tagName.toLowerCase() + ">"); } }); wow.init(); /** Filter **/ $(function () { $("#Container").mixItUp({ "fade stagger(34ms) translateZ(-700px)", easing: "cubic - bezier(0.175, 0.885, 0.32, 1275" }
-                                }); });
+        callback: function (box)}); 
+        wow.init(); /** Filter **/ $(function () { $("#Container").mixItUp({ "fade stagger(34ms) translateZ(-700px)", easing: "cubic - bezier(0.175, 0.885, 0.32, 1275" } ); });
     </script>
 </body>
 </html>
