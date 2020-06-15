@@ -308,7 +308,7 @@ font-size: 20px;
 }
 #counter{
     box-shadow: 0 10px 20px rgba(0,0,0,.08), 0 6px 6px rgba(0,0,0,.13);
-    border-radius: 4px;
+    /* border-radius: 4px; */
     display: -webkit-box;
     overflow: hidden;
     -webkit-transition: .3s;
@@ -318,7 +318,7 @@ font-size: 20px;
         display: inline-flex;
     align-items: center;
         background-color: #32818D;
-            border: 1px solid;
+            /* border: 1px solid; */
 }
  .counter-icon {
     background: #f7f7f7;
