@@ -81,6 +81,7 @@ a:visted {
 .container {
     /* width: 100%; */
     position: relative;
+    border: 1px solid;
 }
 
 .text-block {
@@ -92,6 +93,7 @@ a:visted {
     width: 100%;
     height: 100%;
     display: block;
+    border: 1px solid;
     /* justify-content: center; */
     /* align-items: center; */
 }
@@ -105,6 +107,7 @@ a:visted {
     text-align: center;
     text-transform: uppercase;
      width: 50%;
+     border: 1px solid;
 }
 .text-block h5{
     color: #000;
@@ -300,7 +303,7 @@ font-size: 20px;
   text-transform: uppercase;
   letter-spacing: 1.6px;
   font-weight: bold;
-      border-radius: 100px;
+      /* border-radius: 100px; */
       color: black;
 }
 #counter{
@@ -315,6 +318,7 @@ font-size: 20px;
         display: inline-flex;
     align-items: center;
         background-color: #32818D;
+            border: 1px solid;
 }
  .counter-icon {
     background: #f7f7f7;
